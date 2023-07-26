@@ -1,0 +1,45 @@
+/* Estilos para la NavBar */
+.navbar {
+    background-color: #161515;
+    padding: 10px 20px;
+ 
+}
+
+/* Estilos para la navegación */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0c0303;
+    
+}
+
+/* Estilos para el logo o marca */
+.nav_brand {
+    margin-right: 20px;
+    font-size: 50px;
+  
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #000000;
+    padding: 90px;
+    transition: color 0.2s ease;
+  
+}
+
+.nav_link:hover {
+    color: #ff5500;
+}
+
+/* Estilos para la lista de navegación */
+.nav_list {
+    list-style: none;
+    display: flex;
+}
+
+.nav_list li {
+    margin-right: 10px;
+}
+

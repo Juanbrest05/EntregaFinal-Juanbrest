@@ -1,0 +1,51 @@
+/* Estilos para el contenedor de los productos */
+.jeje {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el párrafo que muestra el total */
+  .xd {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el botón "Emitir compra" */
+  .pepe {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón cuando se pasa el cursor sobre él */
+  .pepe:hover {
+    background-color: #0056b3;
+  }
+ 
+.jejex {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+   
+}
+
+/* Estilos para cada elemento del carrito (ItemCart) */
+/* Asumiendo que ItemCart es un componente de React o similar */
+.ItemCart {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+

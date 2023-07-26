@@ -1,0 +1,47 @@
+/* CSS */
+
+/* Estilos generales para el contenedor */
+
+  
+  /* Estilos para el contenedor de detalles */
+  .detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc; /* Borde alrededor del contenedor de detalles */
+    padding: 10px; /* Espacio de relleno dentro del contenedor de detalles */
+  }
+  
+  /* Estilos para la imagen en el detalle */
+  .detail_image {
+    width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 150px;
+    object-fit: cover; /* Para mantener la proporción de la imagen */
+  }
+  
+  /* Estilos para el contenido en el detalle */
+  .content {
+    flex: 1; /* Permite que ocupe el espacio restante en el contenedor de detalles */
+    margin-left: 20px; /* Espacio de margen izquierdo para separar la imagen del contenido */
+  }
+  
+  /* Estilos para el título */
+  .content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el enlace "Terminar Compra" */
+  .content a {
+    display: inline-block;
+ 
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el componente "ItemCount" */
+  /* Si es necesario, agrega estilos adicionales aquí */
+  
